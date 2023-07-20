@@ -3,7 +3,7 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: Gryffinium CI
+name: Gryffinium Global CI
 
 on:
   push:
@@ -30,3 +30,4 @@ jobs:
     - name: Check dependencies
       run: cd gryffinium; sbt dependencyUpdates
       # Optional: This step uploads information to the GitHub dependency graph and unblocking Dependabot alerts for the repository
+
